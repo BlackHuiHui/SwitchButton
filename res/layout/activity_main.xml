@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ifavor="http://schemas.android.com/apk/res/cn.ifavor.switchbutton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:text="不可滑动"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+
+        <cn.ifavor.switchbutton.view.EasySwitchButton
+            android:id="@+id/esb_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="true"
+            ifavor:switch_off="@drawable/ios7_switch_off"
+            ifavor:switch_on="@drawable/ios7_switch_on" />
+
+        <cn.ifavor.switchbutton.view.EasySwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="false"
+            ifavor:switch_off="@drawable/ios7_switch_off"
+            ifavor:switch_on="@drawable/ios7_switch_on" />
+
+        <cn.ifavor.switchbutton.view.EasySwitchButton
+            android:id="@+id/esb_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="true"
+            ifavor:switch_off="@drawable/checkbox_off"
+            ifavor:switch_on="@drawable/checkbox_on" />
+
+        <cn.ifavor.switchbutton.view.EasySwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="false"
+            ifavor:switch_off="@drawable/checkbox_off"
+            ifavor:switch_on="@drawable/checkbox_on" />
+
+        <cn.ifavor.switchbutton.view.EasySwitchButton
+            android:id="@+id/esb_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="true"
+            ifavor:switch_off="@drawable/toggle_btn_unchecked"
+            ifavor:switch_on="@drawable/toggle_btn_checked" />
+
+        <cn.ifavor.switchbutton.view.EasySwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="false"
+            ifavor:switch_off="@drawable/toggle_btn_unchecked"
+            ifavor:switch_on="@drawable/toggle_btn_checked" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:text="可滑动"
+            android:textColor="#ff000000"
+            android:textSize="18sp" />
+
+        <cn.ifavor.switchbutton.view.SwitchButton
+            android:id="@+id/sb_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="true"
+            ifavor:slide_button="@drawable/slide_button"
+            ifavor:switch_background="@drawable/switch_background" />
+
+        <cn.ifavor.switchbutton.view.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="false"
+            ifavor:slide_button="@drawable/slide_button"
+            ifavor:switch_background="@drawable/switch_background" />
+
+        <cn.ifavor.switchbutton.view.SwitchButton
+            android:id="@+id/sb_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="true"
+            ifavor:slide_button="@drawable/switch_btn_slipper"
+            ifavor:switch_background="@drawable/switch_btn_on" />
+
+        <cn.ifavor.switchbutton.view.SwitchButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dip"
+            ifavor:isOpened="false"
+            ifavor:slide_button="@drawable/switch_btn_slipper"
+            ifavor:switch_background="@drawable/switch_btn_on" />
+    </LinearLayout>
+
+</LinearLayout>
