@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 详情请参见：http://blog.csdn.net/anydrew/article/details/50969574
 
 ## 概述
@@ -327,3 +328,7 @@ xmlns:ifavor="http://schemas.android.com/apk/res/res-auto"
 
 
 
+=======
+# SwitchButton
+SwitchButton
+>>>>>>> c4e195b5fa0b0dc6de6a80419637f1cdffb80c14
